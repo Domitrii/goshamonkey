@@ -1,0 +1,65 @@
+.mainContent{
+    display: flex;
+    height: 800px;
+    background-repeat: no-repeat;
+    align-items: end;
+    padding: 100px 120px;
+}
+
+.mainContent div {
+    width: fit-content;
+}
+
+.mainContent div h3 {
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.mainContent div h1 {
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.mainContent div p {
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+
+}
+
+.buttons .btn {
+    padding: 16px 24px;
+    border-radius: 28px;
+    border: 1px solid rgb(49, 110, 50);
+    background: none;
+    width: 200px;
+    color: white;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.buttons .btn:first-child {
+    background: rgb(49, 110, 50);
+    color: white;
+}
+
+.buttons .btn:first-child:hover {
+    background: rgb(39, 85, 39);
+}
+
+.buttons .btn:hover {
+    background: rgb(49, 110, 50);
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,54 @@
+.coursesBlock {
+    background: linear-gradient(90deg,rgba(38, 62, 52, 1) 0%, rgba(75, 166, 113, 1) 100%);background: linear-gradient(90deg,rgba(38, 62, 52, 1) 0%, rgba(53, 115, 79, 1) 100%);background: linear-gradient(90deg,rgba(21, 41, 33, 1) 0%, rgba(53, 115, 79, 1) 100%);
+    padding: 60px 120px;
+}
+
+.courseBack{
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    opacity: 0.4;
+    border-radius: 16px;
+}
+
+.courseTitle{
+    margin-bottom: 40px;
+}
+
+.coursesContent{
+    display: flex;
+    justify-content: space-around;
+}
+
+.backImg{
+    background: url(../../../public/course1.png);
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.coursesItem {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 16px;
+}
+
+.coursesItem .infoBtn {
+    cursor: pointer;
+    color: black;
+    display: flex;
+    justify-content: center;
+    background: white;
+    border-radius: 16px;
+    border: none;
+    font-size: 16px;
+    padding: 8px 16px;
+}
+
+.coursesItem .infoBtn:hover {
+    background-color: rgb(216, 216, 216);
+}
