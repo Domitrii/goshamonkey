@@ -1,6 +1,6 @@
-import AllSection from "../AllSection/AllSection"
 import Footer from "../Footer/Footer"
 import Header from "../Header/Header"
+import PaymentSection from "../PaymentSection/PaymentSection"
 import css from "./HiPrice.module.css"
 
 const hiProducts = [
@@ -21,7 +21,7 @@ function HiPrice() {
             </div>
             <ul className={css.list}>
                 {hiProducts.map((i, idx) => (
-                    <AllSection
+                    <PaymentSection
                         key={idx}
                         img={i.img}
                         text={i.text}

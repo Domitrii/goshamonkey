@@ -4,11 +4,13 @@ import AllSection from '../AllSection/AllSection'
 
 
 const products = [
-    {img: "../../../course1.png",text: "Гоша курс",price: "74р",index: "courses"},
-    {img: "../../../course1.png",text: "Гоша привет",price: "100р",index: "hi-price"},
-    {img: "../../../course1.png",text: "Гоша курс",price: "200р",index: "courses"},
-    {img: "../../../course1.png",text: "Гоша привет",price: "300р",index: "hi-price"},
-    {img: "../../../course1.png",text: "Гоша курс",price: "400р",index:"courses"},
+    {img: "../../../course1.png",text: "Гоша курс",price: "74₽",index: "courses"},
+    {img: "../../../course1.png",text: "Гоша привет",price: "100₽",index: "hi-price"},
+    {img: "../../../course1.png",text: "Гоша курс",price: "200₽",index: "courses"},
+    {img: "../../../course1.png",text: "Гоша привет",price: "300₽",index: "hi-price"},
+    {img: "../../../course1.png",text: "Гоша курс",price: "400₽",index:"courses"},
+    {img: "../../../course1.png",text: "Гоша курс",price: "400₽",index:"courses"},
+    {img: "../../../course1.png",text: "Гоша курс",price: "400₽",index:"courses"},
 ]
 
 function Products() {

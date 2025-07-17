@@ -1,0 +1,30 @@
+.picCont{
+    height: 387.5px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    border-bottom: 1px solid white;
+}
+
+.line{
+    background-color: white;
+    height: 1px;
+    width: 100%;
+}
+
+.pic {
+    width: 100%;
+    max-height: 100%;
+}
+
+.content{
+    width: 346px;
+    height: 562px;
+    border: 2px solid white;
+    position: relative;
+    background-color: rgb(23, 28, 22);
+}
+
+.textBlock {
+    width: 100%;
+}

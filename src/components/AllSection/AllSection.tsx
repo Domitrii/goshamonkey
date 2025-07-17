@@ -9,6 +9,10 @@ interface AllSectionProps {
 }
 
 function AllSection ({ img, text, price, index }: AllSectionProps) {
+    const handleConsole = () => {
+        console.log(`Clicked on ${text} with index ${index} and img ${img} and price ${price}`);
+    }
+
   return (
     <li className={css.content}>
         <div className={css.picCont}>
@@ -17,7 +21,7 @@ function AllSection ({ img, text, price, index }: AllSectionProps) {
         <div className={css.textBlock}> 
             {text}
             {price}
-            <NavLink to={'/' + index} className={css.btn}>View More</NavLink>
+            <NavLink to={'/' + index} onClick={() => handleConsole()} className={css.btn}>View More</NavLink>
         </div>
     </li>
   )
