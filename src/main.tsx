@@ -18,9 +18,9 @@ const stripePromise = window.Stripe
   : null;
 
 createRoot(document.getElementById('root')!).render(
-  // <StrictMode>
+  <StrictMode>
       <Elements stripe={stripePromise}>
         <RouterProvider router={router} />
       </Elements>
-  // </StrictMode>,
+  </StrictMode>,
 )
